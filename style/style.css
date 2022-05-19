@@ -1,0 +1,75 @@
+/*
+Remake ~
+Date : 19 May 2022
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth; /* Scroll Animation switch Script.JS on tutorial  */
+}
+
+body{
+  background-color: #282C34 !important;
+  color: #ABB2BF !important;
+}
+
+.title{
+  margin-top: 75px;
+  font-family: "Macondo", sans-serif;
+}
+
+a:link {
+  color: #61AFEF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #61AFEF;
+  text-decoration: none;;
+}
+
+a:hover {
+  color: #61AFEF;
+  text-decoration: none;
+}
+
+a:active {
+  color: #61AFEF;
+  text-decoration: none;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  background-color: #ABB2BF;
+  color: #282C34;
+}
+
+.jumbotron img{
+  width: 200px;
+  border: 5px solid #282C34;
+}
+
+hr{
+  margin: auto;
+  margin-bottom: 25px;
+  width: 250px;
+  border-top: 3px solid #61AFEF;
+}
+
+section{
+  min-height: 450px;
+}
+
+.portfolio{
+  background-color: #ABB2BF;
+  color: #282C34;
+  min-height: 1000px;
+}
+
+footer{
+  margin-top: 50px;
+}
